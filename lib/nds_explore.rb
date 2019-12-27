@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   my_hash = directors_database[0][:movies]
   movie_list = 0
   while movie_list < my_hash.length do
-    print my_hash[movie_list][:title]
+    puts my_hash[movie_list][:title]
     movie_list += 1
   end
   
