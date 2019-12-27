@@ -14,12 +14,12 @@ def print_first_directors_movie_titles
   my_hash = directors_database[0][:movies]
   movie_list = 0
   while title < my_hash.length do
-    puts my_hash[movie_list][:title]
+    puts 
     movie_list += 1 
     
   end
   # for every hash inside of the directors_database[0][:movies] 
   # return the title 
   
- 
+ return my_hash[movie_list][:title]
 end
