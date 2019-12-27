@@ -11,9 +11,9 @@ end
 def print_first_directors_movie_titles
   stevens_hash = directors_database[0]
   movie_info = stevens_hash[:movies]
-  my_hash = 
+  my_hash = directors_database[0][:movies]
   movie_list = 0
- print directors_database[0][:movies]
+ print my_hash[movie_list][:title]
   
   
  
